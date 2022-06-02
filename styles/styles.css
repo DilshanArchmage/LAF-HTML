@@ -1,0 +1,156 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+
+  body{
+    overflow-x: hidden;
+}
+  
+  
+  #sector{
+    background-color: #EDF2F4;
+  }
+  
+  
+  /* main-menu */
+  .nav-link{
+    color: #fff !important;
+    font-weight: bolder;
+    
+    
+  }
+  .logo{
+    width: 100px;
+  }
+  
+  
+  /* Main slider */
+  .slider-caption{
+    margin-right: auto;
+  }
+  .carousel-image{
+    max-height: 600px;
+  }
+  .carosel-head{
+    position: absolute;
+    /* right: 15%; */
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    /* text-align: center; */
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 100% !important;
+    height: 3px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .carousel-indicators [data-bs-target]{
+    text-indent: initial;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    display: none;
+}
+  
+.sector-heading{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .owl-nav{
+   background: red;
+  
+} */
+
+img{
+    width: 20%;
+}
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+    display: inline-block
+  }
+
+  .owl-nav .owl-prev, .owl-nav .owl-next {
+    outline: none;
+    opacity: 0.6;
+    transition: all .5s ease;
+  }
+.arousel-control-prev img{
+    width: 10px;
+}
+
+.slide-1{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/Argyle_diamond_mine__Credit_Rio_Tinto.960_0_1.png');
+   width: 70vh;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+    margin-left: auto;
+}
+
+.slide-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/b6.png');
+    width: 100%;
+     height: 70vh;
+     position: relative;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+ }
+
+ .slide-3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/r0_99_2120_1291_w1200_h678_fmax.png');
+    width: 100%;
+     height: 70vh;
+     position: relative;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+ }
+
+ .slide-4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/shutterstock_283263773.png');
+    width: 100%;
+     height: 70vh;
+     position: relative;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+ }
+ .project-slider .owl-item{
+margin-right: 0px !important;
+ }
+
+ .sectionFour-heading{
+     margin-top: 200px;
+ }
+ .sectionFour-link1{
+    margin-top: 170px;
+ }
+ .sectionFour-link2{
+    margin-top: 120px;
+    text-align: right;
+ }
+.sectionFour-img{
+    margin-top: -50px;
+}
+
+#section-red{
+   background-color: #D10E31;
+}
+ 
